@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GlassCard } from "@/components/ui/GlassCard";
+import GlassCard from "@/components/ui/GlassCard";
 
 export default function About() {
   return (

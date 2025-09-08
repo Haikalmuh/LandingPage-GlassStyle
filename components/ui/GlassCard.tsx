@@ -1,12 +1,12 @@
-import { cn } from "@/utils/cn"; // kalau belum ada utils cn, bisa pakai className langsung
+import { cn } from "@/utils/cn";
+import { ReactNode } from "react";
 
-export function GlassCard({
-  children,
-  className,
-}: {
-  children: React.ReactNode;
+interface GlassCardProps {
+  children: ReactNode;
   className?: string;
-}) {
+}
+
+export default function GlassCard({ children, className }: GlassCardProps) {
   return (
     <div
       className={cn(

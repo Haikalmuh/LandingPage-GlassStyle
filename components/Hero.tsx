@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GlassCard } from "@/components/ui/GlassCard";
+import GlassCard from "@/components/ui/GlassCard";
 import { Button } from "@/components/ui/Button";
 
 export default function Hero() {
@@ -23,13 +23,14 @@ export default function Hero() {
             TechConf 2025
           </h1>
           <p className="mt-6 text-lg text-slate-300 max-w-xl mx-auto">
-            Explore the future of technology with innovators, leaders, and dreamers from around the globe.
+            Explore the future of technology with innovators, leaders, and
+            dreamers from around the globe.
           </p>
 
           {/* CTA Buttons */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="primary">Register Now</Button>
-<Button variant="outline">Learn More</Button>
+            <Button variant="outline">Learn More</Button>
           </div>
         </GlassCard>
       </motion.div>

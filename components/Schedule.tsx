@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GlassCard } from "./ui/GlassCard";
+import GlassCard from "@/components/ui/GlassCard";
 
 const schedule = [
   {
