@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Twitter, Linkedin } from "lucide-react";
+import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -42,6 +42,14 @@ export default function Footer() {
 
           {/* Socials */}
           <div className="flex gap-4">
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-white/5 border border-white/10 text-slate-300 hover:text-purple-400 hover:bg-white/10 transition"
+            >
+              <Instagram className="w-5 h-5" />
+            </a>
             <a
               href="https://twitter.com/"
               target="_blank"
