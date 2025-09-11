@@ -5,6 +5,7 @@ import Schedule from "@/components/Schedule";
 import Registration from "@/components/Registration";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Sponsors from "@/components/Sponsor";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Speakers />
       <Schedule />
+      <Sponsors />
       <Registration />
       <Footer />
     </main>
